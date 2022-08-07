@@ -43,3 +43,49 @@ ul li a{
     padding: 8px;
     font-size: 20px;
 }
+
+.results ul li {
+    color: #fff;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: none;
+}
+
+.results ul li:hover {
+    box-shadow: none;
+}
+
+.results a {
+    display: block;
+    width: max-content;
+    margin: auto;
+    background: #03a81f;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+
+form{
+    max-width: 80%;
+}
+
+form h1 {
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: #000;
+    padding: 10px;
+}
+  
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
